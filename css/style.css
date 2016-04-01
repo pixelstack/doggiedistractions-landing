@@ -1,0 +1,191 @@
+html, body {
+  background-color: #fbf9fe;
+}
+@media screen and (min-width: 768px) {
+  html, body {
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+blockquote {
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  blockquote {
+    font-size: 18px;
+  }
+}
+
+cite {
+  font-size: 12px;
+  font-style: normal;
+}
+@media screen and (min-width: 768px) {
+  cite {
+    font-size: 16px;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #D6CAE2;
+}
+
+::-moz-placeholder {
+  color: #D6CAE2;
+}
+
+:-ms-input-placeholder {
+  color: #D6CAE2;
+}
+
+::placeholder {
+  color: #D6CAE2;
+}
+
+.btn {
+  background-color: #E8777B;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.6em 1.3em;
+}
+.btn:hover {
+  background-color: #dd363b;
+}
+.btn:focus {
+  outline: none;
+}
+
+.form-input {
+  background-color: #FBF9FE;
+  border: 1px solid #E5DFEB;
+  margin-bottom: 1em;
+  padding: 0.4em 0.8em;
+  width: 80%;
+}
+.form-input:focus, .form-input:hover {
+  background-color: #f8f5fd;
+  border: 1px solid #e2dce9;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.page-main,
+.page-sidebar {
+  padding: 2em;
+  text-align: center;
+}
+
+.page-main {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .page-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.page-main-content__social {
+  margin: 1.5em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+.page-main-content__social li {
+  display: inline-block;
+  font-size: 24px;
+  list-style-type: none;
+}
+.page-main-content__social li + li {
+  margin-left: 0.3em;
+}
+
+.social-facebook {
+  color: #3b5998;
+}
+
+.social-instagram {
+  color: #3f729b;
+}
+
+.page-sidebar {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .page-sidebar {
+    background: #333 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4230/dogs-web.jpg") center center no-repeat;
+    background-size: cover;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+.page-sidebar blockquote {
+  color: #8462a4;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .page-sidebar blockquote {
+    color: #fff;
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+}
+.page-sidebar cite {
+  display: block;
+  margin-top: 0.9em;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .page-sidebar cite {
+    text-align: right;
+  }
+}
